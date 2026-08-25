@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    1
+    <dialog class="openccw-oauth-dialog">
+        <style>
+            .openccw-oauth-dialog {
+                margin: auto;
+                padding: 0 32px;
+                outline: none;
+                color-scheme: dark;
+                background: #20202a;
+                border: 1px solid hsla(0, 0%, 100%, .2);
+                font-size: 16px;
+                border-radius: 16px;
+                width: 480px;
+            }
+
+            .openccw-oauth-dialog::backdrop {
+                background-color: hsla(0, 0%, 0%, 0.7);
+            }
+
+            .openccw-oauth-dialog ::-webkit-scrollbar {
+                height: 10px !important;
+            }
+
+            .openccw-oauth-dialog-title {
+                font-size: 24px;
+                word-spacing: 8px;
+                margin: 32px 0;
+                text-align: center;
+            }
+
+            .openccw-oauth-dialog-url {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px 12px;
+                font-size: 16px;
+                margin-bottom: 16px;
+                border: none;
+                border-radius: 6px;
+                background: hsla(0, 0%, 100%, 0.1);
+                overflow-x: auto;
+            }
+
+            .openccw-oauth-dialog-desc {
+                line-height: 36px;
+            }
+
+            .openccw-oauth-dialog>form {
+                display: flex;
+                justify-content: space-evenly;
+                margin: 40px 0;
+            }
+
+            .openccw-oauth-dialog button {
+                padding: 8px 32px;
+                border: none;
+                border-radius: 99px;
+                font-size: 16px;
+                min-width: 8rem;
+                background: #63636A;
+                color: white;
+                cursor: pointer;
+            }
+
+            button.openccw-oauth-dialog-btn-login {
+                background: #5cff6d;
+                color: black;
+            }
+        </style>
+        <div class="openccw-oauth-dialog-title">OpenCCW OAuth</div>
+        <div class="openccw-oauth-dialog-url">https://openccw.github.io/</div>
+        <div class="openccw-oauth-dialog-desc">
+            以上网站请求登录您的 CCW 账号。<br>
+            若授权登录，网站将能用您的账号执行几乎任何操作。<br>
+            请确认网站是可信的，否则不要授权登录。
+        </div>
+        <form method="dialog">
+            <button class="openccw-oauth-dialog-btn-cancel">取消</button>
+            <button class="openccw-oauth-dialog-btn-login">授权登录</button>
+        </form>
+    </dialog>
+
+    <script>
+        document.querySelector('.openccw-oauth-dialog').showModal()
+    </script>
+</body>
+
+</html>
