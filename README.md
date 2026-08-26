@@ -13,7 +13,7 @@
     随机的 64 个字符的 hex ，前 16 个字符要保存，用于回调后解密。  
     这个参数在官方的 OAuth 里叫 `client_id` ，官方客户端会使用固定的值。  
     但为了安全起见，建议使用 `crypto.getRandomValues` 生成随机值。  
-  - `oauth-url`:  
+  - `oauth-url`  
     回调的网址。
 
 - 回调 `oauth-url`
