@@ -22,3 +22,7 @@
     **密钥**: 前面提到的 `oauth-state` 的开头 16 个字符，用 ASCII 或 UTF-8 编码。  
     **iv**: `"GSs0NL83MBynOzVh"` ，用 ASCII 或 UTF-8 编码。  
     使用 `AES-CBC` 解密后请求 OAuth 接口即可创建新的登录会话并获取 Token（登录会话密码）。  
+
+## 许可证
+
+使用 [Unlicense](https://unlicense.org) 许可证，发布至公共领域。
