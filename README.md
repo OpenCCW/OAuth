@@ -21,7 +21,7 @@
     返回的密文响应。  
     **密钥**: 前面提到的 `oauth-state` 的开头 16 个字符，用 ASCII 或 UTF-8 编码。  
     **iv**: `"GSs0NL83MBynOzVh"` ，用 ASCII 或 UTF-8 编码。  
-    使用 `AES-CBC` 解密后请求 OAuth 接口即可创建新的登录会话并获取 Token（登录会话密码）。  
+    使用 Base64 解码，然后使用 `AES-CBC` 解密以获得 code ，然后请求 OAuth 接口即可创建新的登录会话并获取 Token（登录会话密码）。  
 
 ## 许可证
 
