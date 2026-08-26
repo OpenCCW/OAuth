@@ -20,6 +20,8 @@ const base64ToBytes = (
         const key = localStorage.getItem(oauthKeyName)
         if (!key) return;
 
+        textareaResult.value = '正在获取回执……'
+
         const cryptoKey = await crypto.subtle.importKey(
             'raw',
             textEncoder.encode(key),
