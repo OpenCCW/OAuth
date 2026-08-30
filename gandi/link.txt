@@ -3,3 +3,5 @@ https://www.ccw.site/gandi/project/6a8c03a62c5c8e06faa223ff?oauth-url=https://op
 https://www.ccw.site/player/6a8c03a62c5c8e06faa223ff?autorun=1&fullscreen=false
 
 https://www.ccw.site/player/6a8c03a62c5c8e06faa223ff?autorun=1&fullscreen=false&oauth-state=3e9a54b562dd2da54d127892ef776dc5e60653bc27763417c10ca50d5dd382a9&oauth-url=https%3A%2F%2Fexample.com
+
+https://www.ccw.site/gandi/project/6a8c03a62c5c8e06faa223ff?oauth-url=https://openccw.github.io/0123456789abcdef0123456789abcdef0123456789abcdef&oauth-state=3e9a54b562dd2da54d127892ef776dc5e60653bc27763417c10ca50d5dd382a9
