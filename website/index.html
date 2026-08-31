@@ -16,6 +16,32 @@
     <link rel="canonical" href="https://openccw.github.io/OAuth/">
     <meta name="robots" content="index, follow">
     <meta name="description" content="第三方网站使用 OAuth 登录共创世界 CCW 账号。">
+
+    <style>
+        body {
+            margin-bottom: 24px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        button:disabled {
+            cursor: default;
+        }
+
+        #btnLoginCCW {
+            padding: 6px 16px;
+            font-size: 14px;
+        }
+
+        #textareaResult {
+            box-sizing: border-box;
+            max-width: 100%;
+            width: 115em;
+            height: 30em;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,12 +52,12 @@
     </p>
     <p>该网页仅演示功能，不会保存您的 Token（登录会话密码）。</p>
 
-    <div><button id="btnLoginCCW" disabled style="cursor: pointer; padding: 6px 16px; font-size: 14px;">登录 CCW
+    <div><button id="btnLoginCCW" disabled>登录 CCW
             账号</button>
     </div>
 
     <p>回执：（截图后记得打码，防止被盗号）</p>
-    <div><textarea id="textareaResult" style="width: 115em; height: 30em;"></textarea></div>
+    <div><textarea id="textareaResult" readonly></textarea></div>
 
     <script src="https://cdn.jsdelivr.net/npm/tinyhmacmd5"></script>
     <script src="main.js"></script>
