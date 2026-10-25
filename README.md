@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> CCW 已修复 OAuth 漏洞，现在的 OAuth 已经失去了作用，和直接在客户端里输入账号密码登录没有区别了，只是官方不愿意直接在客户端里展示输入账号密码的登录框而已。  
+> <img width="705" height="784" alt="image" src="https://github.com/user-attachments/assets/ce544650-5b4b-4799-9ed7-16a5929bfcdc" />
+
+
 # OpenCCW OAuth
 
 第三方网站使用 OAuth 登录共创世界 CCW 账号。
